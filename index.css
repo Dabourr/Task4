@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 65px;
+}
+header{
+    width: 100%;
+    padding: 39px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    font-family: "Open Sans", sans-serif;
+    gap: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: flex;
+    gap: 40px;
+}
+.content1{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./Untitled-2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 37px;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+.paragraph1{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.button1{
+    gap: 62px;
+    display: flex;
+}
+.Lbutton1{
+    color: white;
+    background-color: rgb(92, 116, 240);
+    padding: 17px 31px;
+    border-radius: 2rem;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 220px;
+}
+.Rbutton1{
+    color: black;
+    background-color: rgb(241, 197, 14);
+    padding: 17px 31px;
+    border-radius: 2rem;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 220px;
+}
+.sec1p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.sec1p a{
+    color: rgb(92, 116, 240);
+    text-decoration: none;
+    font-weight: 600;
+}
+.sec2{
+    background-color: rgb(92, 116, 240);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px 0;
+}
+.sec2 h2{
+    font-family: "Raleway", sans-serif;
+    font-size:48px;
+    font-weight:400;
+}
+.form{
+    width: 65%;
+    background-color: white;
+    padding: 32px 32px;
+    border-radius: 3rem;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    gap: 10px;
+
+}
+.form input{
+    width: 75%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #eeeeee;
+}
+.form button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 2rem;
+    padding: 10px 30px;
+    border: 0;
+    background-color: rgb(241, 197, 14);
+    text-transform: uppercase;
+}
+.sec3{
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.boxes {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.box {
+    width: calc((100% - 2rem) / 3);
+    height: 320px;
+    background-color: #ddd;
+    border-radius: 2rem;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+.box2{
+    padding: 35px 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:  34px;
+}
+.boxColor2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(92, 116, 240);
+    border-radius: 2rem;
+}
+.box2 p:nth-child(1){
+    font-family: "Raleway", sans-serif;
+    font-size:30px;
+    font-weight:700;
+}
+.box2 p:nth-child(2){
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.box2 p:nth-child(3){
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.box2 p:nth-child(3) a {
+    text-decoration: none;
+    color: white;
+}
