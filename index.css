@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -151,6 +152,12 @@ h1{
     height: 320px;
     background-color: #ddd;
     border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+
 }
 .box img {
     width: 100%;
@@ -163,7 +170,7 @@ h1{
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap:  34px;
+    gap: 34px;
 }
 .boxColor2{
     width: 100%;
@@ -175,16 +182,167 @@ h1{
     font-family: "Raleway", sans-serif;
     font-size:30px;
     font-weight:700;
+    color: rgb(255, 255, 255);
 }
 .box2 p:nth-child(2){
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    color: rgb(255, 255, 255);
 }
 .box2 p:nth-child(3){
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    color: rgb(255, 255, 255);
 }
 .box2 p:nth-child(3) a {
     text-decoration: none;
     color: white;
+}
+.iconbox4{
+    width: 65px;
+    height: 65px;
+    background-color: rgb(241, 197, 14);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:nth-child(4) {
+    padding-top: 45px;
+    gap: 25px;
+}
+
+.iconbox4 img{
+    width: 30px;
+    height: 30px;   
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.box4 p:nth-child(1){
+    font-family:"Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+.box4 p:nth-child(2){
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+}
+.iconbox6{
+    width: 65px;
+    height: 65px;
+    background-color: rgb(241, 197, 14);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:nth-child(6) {
+    padding-top: 45px;
+    gap: 25px;
+}
+
+.iconbox6 img{
+    width: 30px;
+    height: 30px;   
+}
+.box6{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.box6 p:nth-child(1){
+    font-family:"Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+.box6 p:nth-child(2){
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+}
+.box6 p:nth-child(1){
+    font-family:"Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+.box6 p:nth-child(2){
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+}
+.sec4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 45px;
+    padding-top: calc(144px - 77px);
+    align-items: center;
+}
+.sec4 h2{
+    color: rgb(17, 17, 17);
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+
+}
+.sec4boxes{
+    width: 75%;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.sec4box:nth-child(1){
+    background-color: rgb(92, 116, 240);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sec4box:nth-child(2){
+    background-color: rgb(241, 197, 14);
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sec4box:nth-child(3){
+    background-color: #ddd;
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sec4box{
+    width: calc((100% - 6rem) / 3);
+    padding: 65px 25px;
+    border-radius: 3rem;
+    text-align: center;
+}
+.sec4box h1{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.sec4box p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+.sec5{
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    padding-left: 245px;
+}
+.sec5 p:nth-child(1){
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
 }
